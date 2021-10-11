@@ -1,0 +1,13 @@
+.detail-row {
+  padding: 20px;
+  background-color: lightgrey;
+}
+
+.description {
+  width: 100%;
+  height: auto;
+  padding: 15px;
+  border: 1px solid #000;
+  margin: 10px 0;
+}
+

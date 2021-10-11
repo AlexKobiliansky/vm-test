@@ -1,0 +1,39 @@
+.vm-table th {
+  position: relative;
+  cursor: pointer;
+}
+
+.vm-table th:after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  display: none;
+}
+
+.vm-table th.sorting:after {
+  display: block;
+}
+
+.vm-table th.desc:after {
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid black;
+}
+
+.vm-table th.asc:after {
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid #000;
+}
+
+.vm-table tr.selected {
+  background-color: #eee;
+}
+
+.vm-table tr {
+  cursor: pointer;
+}

@@ -1,0 +1,13 @@
+.mode-selector {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.mode-selector button {
+  margin: 0 5px;
+}
+
+.mode-selector .btn-info {
+  color: #fff;
+}
